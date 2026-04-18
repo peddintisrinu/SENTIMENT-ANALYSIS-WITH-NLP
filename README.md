@@ -14,12 +14,10 @@
 
 #DESCRIOTON
 
-A Decision Tree is a supervised machine learning algorithm used for both classification and regression tasks. It works by splitting the dataset into smaller subsets based on feature values, forming a tree-like structure of decisions. Each internal node represents a condition on a feature, each branch represents the outcome of that condition, and each leaf node represents the final prediction.
-In this project, a Decision Tree model is implemented using the Scikit-learn library to classify data from a chosen dataset (Iris dataset in this case). The dataset contains features such as sepal length, sepal width, petal length, and petal width, which are used to predict the class of a flower.
-The implementation begins by importing the required libraries and loading the dataset. The data is then split into training and testing sets to evaluate the model’s performance. A Decision Tree Classifier is created using parameters such as criterion (gini or entropy) and max_depth to control the complexity of the tree. The model is trained on the training data and then used to make predictions on the test data.
+Sentiment Analysis is a technique in Natural Language Processing (NLP) used to determine the emotional tone behind a piece of text. It helps identify whether the text expresses a positive, negative, or neutral opinion. This method is widely used in analyzing customer reviews, social media comments, feedback forms, and product ratings.
 
+The main goal of sentiment analysis is to convert unstructured text data into meaningful insights. Since human language is complex and varies in style, NLP techniques are applied to process and understand the text efficiently. The process begins with text preprocessing, which includes removing punctuation, converting text to lowercase, eliminating stopwords (common words like “the”, “is”), and applying stemming or lemmatization to reduce words to their base form.
+
+After preprocessing, the text is transformed into numerical form so that machine learning models can understand it. One commonly used method is TF-IDF (Term Frequency–Inverse Document Frequency), which assigns importance to words based on how frequently they appear in a document relative to the entire dataset. This helps in highlighting important words while reducing the impact of common ones.
 #OUTPUT 
 
-<img width="1064" height="703" alt="Image" src="https://github.com/user-attachments/assets/e16df7e2-23ff-41e9-a444-a99fa8059a9f" />
-<img width="1150" height="782" alt="Image" src="https://github.com/user-attachments/assets/fc86d8fe-ed10-465c-b43b-be19a1516295" />
-<img width="926" height="186" alt="Image" src="https://github.com/user-attachments/assets/232707f1-eb41-49a5-91e9-4364b423790b" />
